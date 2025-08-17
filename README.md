@@ -12,7 +12,7 @@ BubaTube es un clon de YouTube creado con **HTML, CSS y Firebase**.
 Incluye login con **Google, GitHub y correo electrónico**.
 
 ## 🌍 Demo
-👉 (https://TU_USUARIO.github.io/BubaTube/)
+👉 (https://gianthug.github.io/Login-bubatube/)
 
 ## 📂 Estructura
 - `index.html` → Página de inicio de sesión  
