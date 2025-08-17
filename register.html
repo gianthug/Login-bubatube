@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registro - Buba</title>
+  <link rel="stylesheet" href="style.css">
+  <script type="module" src="register.js" defer></script>
+</head>
+<body>
+  <div class="container" id="container">
+    <div class="form-container sign-in-container">
+      <form id="register-form">
+        <h1>Crear Cuenta</h1>
+        <div class="social-container">
+          <button type="button" id="google-register" class="social"><img src="https://www.svgrepo.com/show/355037/google.svg" alt="Google"></button>
+          <button type="button" id="github-register" class="social"><img src="https://www.svgrepo.com/show/512317/github-142.svg" alt="GitHub"></button>
+        </div>
+        <span>o usa tu correo</span>
+        <input type="text" id="reg-name" placeholder="Nombre" required>
+        <input type="email" id="reg-email" placeholder="Correo" required>
+        <input type="password" id="reg-password" placeholder="Contraseña" required>
+        <button type="submit">Registrarse</button>
+      </form>
+    </div>
+    <div class="overlay-container">
+      <div class="overlay">
+        <div class="overlay-panel overlay-right">
+          <h1>Bienvenido!</h1>
+          <p>Ya tienes cuenta? Ingresa ahora en BubaTube</p>
+          <button class="ghost" onclick="window.location.href='index.html'">Iniciar Sesion</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

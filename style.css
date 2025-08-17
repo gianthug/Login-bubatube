@@ -1,0 +1,137 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background: #0f0f10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  color: #fff;
+}
+
+.container {
+  background: #1a1a1d;
+  border-radius: 15px;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+              0 10px 10px rgba(0,0,0,0.22);
+  position: relative;
+  width: 900px;
+  max-width: 100%;
+  min-height: 500px;
+  display: flex;
+  overflow: hidden;
+}
+
+.form-container {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+form {
+  background: #1a1a1d;
+  display: flex;
+  flex-direction: column;
+  padding: 0 50px;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+input {
+  background: #2c2c34;
+  border: none;
+  padding: 12px 15px;
+  margin: 8px 0;
+  width: 100%;
+  color: #fff;
+  border-radius: 8px;
+}
+
+.btn {
+  border-radius: 20px;
+  border: none;
+  background: #6a1b9a;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 12px 45px;
+  margin-top: 10px;
+  transition: transform 80ms ease-in;
+  cursor: pointer;
+}
+
+.button:hover {
+  background: #8e24aa;
+}
+
+.button:hover {
+  color: #bbb;
+  font-size: 12px;
+  text-decoration: none;
+  margin: 10px 0;
+}
+
+.social-container {
+  margin: 20px 0;
+  display: flex;
+  gap: 10px;
+}
+
+.social {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  border: none;
+  border-radius: 50px;
+  background: #2c2c34;
+  color: #fff;
+  font-size: 14px;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.social img {
+  width: 20px;
+  height: 20px;
+}
+
+.social:hover {
+  background: #6a1b9a;
+}
+
+.overlay-container {
+  flex: 1;
+  background: linear-gradient(135deg, #2a003f, #200b2e);
+  border-radius: 0 15px 15px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.overlay {
+  text-align: center;
+  padding: 20px;
+}
+
+.avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 15px 0;
+}
+
+.hidden {
+  display: none;
+}
+
+.alt-link {
+  margin-top: 15px;
+  font-size: 14px;
+}
